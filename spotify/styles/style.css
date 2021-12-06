@@ -6,3 +6,51 @@ Green: #00B172
 White: #FFF
 
 */
+
+nav {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: #FFF;
+    vertical-align: bottom;
+    line-height: 120px;
+    height: 75px;
+    margin-top: -20px;
+}
+
+.logo {
+    position:absolute;
+    left: 10px;
+    top: 10px;
+    margin: 5px 15px 15px 25px;
+    width: 150px;
+}
+
+/* #list {
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+#list li {
+    display: inline-flex;
+    float: right;
+    font-size: 18px;
+    margin: 10px;
+    vertical-align: center;
+    line-height: normal;
+} */
+
+ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    margin: -30px 35px 15px 25px;
+    
+}
+
+li {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
