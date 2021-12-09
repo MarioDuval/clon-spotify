@@ -4,67 +4,145 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
 
-nav {
+
+* {
+    color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  
+  header > nav {
     position: fixed;
+    background-color: #fff;
     width: 100%;
-    text-align: center;
-    background-color: #FFF;
-    vertical-align: bottom;
-    line-height: 120px;
-    height: 75px;
-    margin: 2px 0 0 -10px;
-}
-
-.logo {
-    position:absolute;
-    left: 10px;
-    top: 10px;
-    margin: 8px 15px 15px 25px;
-    width: 150px;
-}
-
-ul {
-    list-style-type: none;
     display: flex;
-    float: right;
-    margin: -30px 35px 15px 25px;
-    
-}
-
-li {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-body {
-    background-image: url("../images/landing.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 20%;
-    
-
-}
-
-.eslogan {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #logo > img {
+    height: 65px;
+    margin: 10px 30px;
+  }
+  
+  #menu > li {
+    display: inline;
+    list-style: none;
+    margin: auto 30px;
+    font-size: 1.2em;
+  }
+  
+  header {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 850px;
+  }
+  
+  #eslogan {
+    width: 100%;
     position: absolute;
-    color: white;
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
-    margin: 150px 300px 0 300px;
-
-  } 
-
-  h1 {
-    font-size: 65px;
+    margin: -600px auto 0;
+    text-align: center;
+  }
+  
+  #eslogan > h1 {
+    color: #FFF;
+    font-size: 4.5em;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    color: #FFF;
+    font-size: 1.5em;
+    font-weight: 1.6;
+  }
+  
+  #explanation > h2 {
+    margin: 30px auto 10px;
+    text-align: center;
+  }
+  
+  h2 > span {
+    font-size: 1.8em;
+    padding-bottom: 5px;
+  }
+  
+  #explanation > h2 > span {
+    border-bottom: 3px solid #00B172;
+  }
+  
+  .icons > img {
+    height: 85px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+  
+  h3 {
+    text-align: center;
+    color: #00B172;
+    margin-bottom: 20px;
+  }
+  
+  .music {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    margin: 80px;
+  }
+  
+  .icons > h4 {
     text-align: center;
   }
 
-  h2 {
-    font-size: 20px;
-    text-align: center;
-    margin: -20px 100px 0 100px;
+  h4 {
+    font-weight: 1.6;
   }
-
+  
+  #KanyeWest {
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 30px;
+    padding: 100px;
+  }
+  
+  .artist {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #KanyeWest > section > div > .grande {
+    width: 270px;
+  }
+  
+  #KanyeWest > section > h2 > span {
+    border-bottom: 3px solid #FFF;
+    color: #FFF;
+  }
+  
+  #KanyeWest > section > div > h2 {
+    color: #FFF;
+    margin: 30px 0;
+    font-size: 1.5em;
+  }
+  
+  #KanyeWest > section > div > h4 {
+    color: #FFF;
+    font-size: 1em;
+  }
